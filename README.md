@@ -1,6 +1,6 @@
-# Fraud Detection System
+# Fraud Detection System using Random Forest Classifier
 
-A machine learning-based web application for detecting fraudulent bank transactions.
+This project implements a fraud detection system using Random Forest Classifier to identify fraudulent transactions in financial data.
 
 ## Features
 
@@ -20,23 +20,39 @@ A machine learning-based web application for detecting fraudulent bank transacti
 - Bootstrap 5
 - JavaScript
 
-## Installation
+## Dataset
+
+The dataset used in this project is too large to be included in the repository. To use this project:
+
+1. Create a `Dataset` directory in the project root if it doesn't exist
+2. Download the "Transactions Dataset.csv" file
+3. Place the downloaded file in the `Dataset` directory
+
+## Project Structure
+
+- `Dataset/`: Directory for storing the transaction dataset (not included in repository due to size)
+- Other project files and directories containing the implementation
+
+## Setup Instructions
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
-cd fraud-detection-system
+git clone https://github.com/YOUR-USERNAME/Fraud-Detection-System-using-Random-Forest-Classifier.git
+cd Fraud-Detection-System-using-Random-Forest-Classifier
 ```
 
-2. Install dependencies:
+2. Set up the dataset as described in the Dataset section above
+
+3. Install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
-```bash
-python app.py
-```
+4. Run the project according to the implementation instructions in the code
+
+## Note
+
+The dataset file is not included in this repository due to its large size (470.67 MB). Please ensure you have the dataset file properly placed in the Dataset directory before running the code.
 
 ## Model Information
 
